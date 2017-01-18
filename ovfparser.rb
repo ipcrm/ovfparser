@@ -29,7 +29,7 @@ Nokogiri::XML::Builder.with(doc.at('VirtualSystem')) do |xml|
     xml.Info("Meta-information about the installed software")
     xml.Product(opts[:product])
     xml.Vendor(opts[:vendor])
-    xml.Version(opts[:version])
+    xml.Version(opts[:ovfversion])
     xml.ProductUrl(opts[:producturl])
     xml.VendorUrl(opts[:vendorurl])
   }
