@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 require 'nokogiri'
 require 'trollop'
-require 'pry'
 
 # Get Args
 opts = Trollop::options do
